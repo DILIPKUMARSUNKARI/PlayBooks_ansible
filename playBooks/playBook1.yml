@@ -1,0 +1,9 @@
+---
+- name: apache2
+  hosts: all
+  tasks: 
+   - name: apt
+     apt: 
+      name: apache2
+      state: present
+...
